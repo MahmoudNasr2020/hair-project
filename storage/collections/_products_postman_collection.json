@@ -1,0 +1,34 @@
+{
+    "info": {
+        "_postman_id": "f89d2aea-e710-4bbd-81f6-e07274616e6d",
+        "name": null,
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "local",
+            "value": "http://127.0.0.1:8000/api/v1"
+        },
+        {
+            "key": "token",
+            "value": ""
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "item": [
+        {
+            "name": "products",
+            "item": []
+        }
+    ]
+}

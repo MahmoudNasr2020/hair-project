@@ -1,0 +1,34 @@
+{
+    "info": {
+        "_postman_id": "4b28aa61-7d5e-4317-b28b-0ffb0e889bae",
+        "name": "",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "local",
+            "value": "http://127.0.0.1:8000/api/v1"
+        },
+        {
+            "key": "token",
+            "value": ""
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "item": [
+        {
+            "name": "clients",
+            "item": []
+        }
+    ]
+}

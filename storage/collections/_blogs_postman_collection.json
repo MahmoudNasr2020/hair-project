@@ -1,0 +1,34 @@
+{
+    "info": {
+        "_postman_id": "0a37529e-4982-452a-9be9-66174110bf6c",
+        "name": null,
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "local",
+            "value": "http://127.0.0.1:8000/api/v1"
+        },
+        {
+            "key": "token",
+            "value": ""
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "item": [
+        {
+            "name": "blogs",
+            "item": []
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "info": {
+        "_postman_id": "7b506c83-65a3-4f81-b859-0edd70a2b1e3",
+        "name": "",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "local",
+            "value": "http://127.0.0.1:8000/api/v1"
+        },
+        {
+            "key": "token",
+            "value": ""
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "item": [
+        {
+            "name": "sliders",
+            "item": []
+        }
+    ]
+}
